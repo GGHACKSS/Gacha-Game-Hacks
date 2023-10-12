@@ -1,7 +1,7 @@
 import requests
 
 # Define the URL
-url = "http://lunime.com/gachastudiobeta/studiologin.php"
+url = "http://lunime.com/worldgachadata/loginworldx.php"
 
 # Prompt the user for account and password
 accountx = input("Enter your account: ")
@@ -10,7 +10,7 @@ passx = input("Enter your password: ")
 # Create the data payload
 data = {
     "accountx": accountx,
-    "passx": passx
+    "pass": passx
 }
 
 try:
